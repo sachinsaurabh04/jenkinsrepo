@@ -11,6 +11,10 @@ pipeline {
             steps {
                 echo 'This is my first githubcode for jenkins stage'
             }
+        stage('Bye-Bye') {
+            steps {
+                echo 'This is completed'
+            }
         }
     }
 }
