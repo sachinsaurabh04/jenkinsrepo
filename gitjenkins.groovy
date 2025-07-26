@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('reponame') {
             steps {
-                echo 'Hello World'
+                echo 'Hey, I am taking code from jenkinsrepo GitHub!'
             }
         }
-        stage('World') {
+        stage('HelloWorld') {
             steps {
-                echo 'This is my customized stage'
+                echo 'This is my first githubcode for jenkins stage'
             }
         }
     }
