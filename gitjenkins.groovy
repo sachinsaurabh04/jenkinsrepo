@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'This is my first githubcode for jenkins stage'
             }
-        stage('Bye-Bye') {
+        stage('ByeBye') {
             steps {
                 echo 'This is completed'
             }
